@@ -1,0 +1,60 @@
+$card-spacing: .5rem;
+$card-width: 20rem;
+$sidebar-width:17rem;
+@import '../../styles.scss';
+.app-container {
+   @extend .container;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+  display: flex;
+}
+
+.location {
+  max-width: $card-width;
+  min-width: $card-width;
+  margin-top: $card-spacing;
+  margin-left: $card-spacing;
+  margin-right: $card-spacing;
+  margin-bottom: $card-spacing;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.location:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.location-picture {
+  margin-top: 2*$card-spacing;
+  height: 11rem;
+  width: 18rem;
+  display: block;
+}
+
+.sidebar {
+  height: 100%;
+  width: 25%;
+  background-color: #e3e8ef;
+  transition:all .5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+
+.main-content {
+  width:75%;
+  height:100%;
+  display:flex;
+  background: url(https://dl.dropboxusercontent.com/u/3400459/CodePen/Fullscreen-DIVs/dark-orange.png) center center no-repeat scroll #DC554F;
+}
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
