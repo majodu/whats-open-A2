@@ -1,14 +1,14 @@
 //card
 $card-spacing: .5rem;
-$card-width: 20rem;
-$card-height: 25rem;
+$card-width: 15rem;
+$card-height: 20rem;
 $card-border-radius:0.25rem;
 $card-border:1px solid rgba(0, 0, 0, 0.125);
 
 //picture height
-$card-background-height: 11rem;
+$card-background-height: 8.5rem;
 //card circle pictuer
-$card-circle-picture-diameter:10rem;
+$card-circle-picture-diameter:7rem;
 
 @import '../../styles.scss';
 .app-container {
@@ -51,7 +51,7 @@ $card-circle-picture-diameter:10rem;
   right:($card-width/2) - ($card-circle-picture-diameter/2);
   top:$card-background-height - ($card-circle-picture-diameter/2);
   border-radius:50%;
-  border:3px solid rgba(255, 255, 255, 1);
+  border:5px solid rgba(255, 255, 255, 1);
   box-shadow: 0 0 1px white;
   height: $card-circle-picture-diameter;
   width: $card-circle-picture-diameter;
@@ -69,7 +69,7 @@ $card-circle-picture-diameter:10rem;
   width:75%;
   height:100%;
   display:flex;
-  background: url(https://dl.dropboxusercontent.com/u/3400459/CodePen/Fullscreen-DIVs/dark-orange.png) center center no-repeat scroll #DC554F;
+  background: center center no-repeat scroll #DC554F;
 }
 
 @mixin transition($transition...) {

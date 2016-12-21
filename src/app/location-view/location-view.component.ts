@@ -8,6 +8,7 @@ import { Location } from '../location';
 export class LocationViewComponent implements OnInit {
   locations: Location[] = [];
   dayOfTheWeek: number;
+  secondPic = '../assets/BKing.jpg';
   constructor() { }
 
   ngOnInit() {
@@ -27,7 +28,8 @@ export class LocationViewComponent implements OnInit {
     date,
     date,
     date];
-    let picture = '../assets/meTomeKermit.jpg';
+    let picture = '../assets/JC.jpg';
+    
     this.locations[0] = new Location('Easy Eats', openTimes, closeTimes, picture, 'open');
     // this.locations[1] = new Location('Easy Eats', openTimes, closeTimes, picture, 'open');
     // this.locations[2] = new Location('Easy Eats', openTimes, closeTimes, picture, 'open');
