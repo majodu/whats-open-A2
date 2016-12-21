@@ -7,10 +7,12 @@ $card-border:1px solid rgba(0, 0, 0, 0.125);
 
 //picture height
 $card-background-height: 8.5rem;
+
 //card circle pictuer
 $card-circle-picture-diameter:7rem;
 
 @import '../../styles.scss';
+
 .app-container {
    @extend .container;
   min-width: 100%;
@@ -60,16 +62,17 @@ $card-circle-picture-diameter:7rem;
 .sidebar {
   height: 100%;
   width: 25%;
-  background-color: #e3e8ef;
+  background-color: #28282B;
   transition:all .5s cubic-bezier(0.55, 0, 0.1, 1);
 }
-
 
 .main-content {
   width:75%;
   height:100%;
   display:flex;
-  background: center center no-repeat scroll #DC554F;
+  background: center center no-repeat scroll #f5f5ef;
+  background-image: url('../assets/clock.png');
+  background-repeat: repeat;
 }
 
 @mixin transition($transition...) {
