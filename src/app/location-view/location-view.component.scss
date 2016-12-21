@@ -1,6 +1,15 @@
+//card
 $card-spacing: .5rem;
 $card-width: 20rem;
-$sidebar-width:17rem;
+$card-height: 25rem;
+$card-border-radius:0.25rem;
+$card-border:1px solid rgba(0, 0, 0, 0.125);
+
+//picture height
+$card-background-height: 11rem;
+//card circle pictuer
+$card-circle-picture-diameter:10rem;
+
 @import '../../styles.scss';
 .app-container {
    @extend .container;
@@ -15,26 +24,37 @@ $sidebar-width:17rem;
   display: flex;
 }
 
-.location {
-  max-width: $card-width;
-  min-width: $card-width;
-  margin-top: $card-spacing;
-  margin-left: $card-spacing;
-  margin-right: $card-spacing;
-  margin-bottom: $card-spacing;
+.location-card {
+  width: $card-width;
+  height: $card-height;
+  margin: $card-spacing;
+  padding: 0px;
+  border-radius: $card-border-radius;
+  border: 0;
+  overflow: hidden;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
-.location:hover {
+.location-card:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.location-picture {
-  margin-top: 2*$card-spacing;
-  height: 11rem;
-  width: 18rem;
-  display: block;
+.location-background-picture {
+  height: $card-background-height;
+  width: 100%;
+  margin-bottom:$card-circle-picture-diameter/2;
+}
+
+.location-circle-picture {
+  position: absolute;
+  right:($card-width/2) - ($card-circle-picture-diameter/2);
+  top:$card-background-height - ($card-circle-picture-diameter/2);
+  border-radius:50%;
+  border:3px solid rgba(255, 255, 255, 1);
+  box-shadow: 0 0 1px white;
+  height: $card-circle-picture-diameter;
+  width: $card-circle-picture-diameter;
 }
 
 .sidebar {

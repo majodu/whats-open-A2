@@ -7,8 +7,10 @@
    hi
    <!--<button (click)="showSidebar = !showSidebar;">Toggle style</button>-->
 
-    <div *ngFor="let location of locations" class="location card col-xs">
-      <img class="location-picture" src="{{location.picture}}" alt="Card image">
+    <div *ngFor="let location of locations" class="location-card card col-xs">
+      <img class="location-background-picture" src="{{location.picture}}" alt="Card image">
+      <img class="location-circle-picture" src="{{location.picture}}" alt="Card image">
+
       <div class="card-block">
         <h4 class="card-title mb-0">{{location._name}}</h4>
         <p class="card-text">Opening Time: {{location.openTimes[dayOfTheWeek] | date:'shortTime'}}</p>
