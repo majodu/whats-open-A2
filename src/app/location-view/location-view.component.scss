@@ -5,26 +5,27 @@ $card-height: 20rem;
 $card-border-radius:0.25rem;
 $card-border:1px solid rgba(0, 0, 0, 0.125);
 $sidebar-icon-diameter:5rem;
-
 //picture height
 $card-background-height: 8.5rem;
-
 //card circle pictuer
 $card-circle-picture-diameter:7rem;
-
 @import '../../styles.scss';
-
 .centered {
   margin-left: auto;
   margin-right: auto;
-  width:66%;
+  width: 66%;
 }
-.mountain-backgound{
-  background-image: "../assets/montains.png";
+
+.mountain-backgound {
+  background-image: url("../assets/mountains.png");
+  background-size: 100% 200px;
+   width:100%;
+   height: 200px;
 }
+
 @mixin transition($transition...) {
-    -moz-transition:    $transition;
-    -o-transition:      $transition;
-    -webkit-transition: $transition;
-    transition:         $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
 }
