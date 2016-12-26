@@ -1,33 +1,34 @@
 <div class="app-container">
-  <div class="sidebar">
-    <h5 class="sidebar-heading">Sidebar Heading</h5>
-    <img class="sidebar-icon" src="{{icon1}}">
-    <img class="sidebar-icon" src="{{icon2}}">
-    <img class="sidebar-icon" src="{{icon3}}">
-
-
-  </div>
-  <div class="main-content">
-    <!--<button (click)="showSidebar = !showSidebar;">Toggle style</button>-->
-    <nav class="navbar navbar-light nav-whats-open">
-      <h1 class="navbar-brand mb-0"> Title Here</h1>
+  <nav class="navbar navbar-light bg-faded">
+    <div class="centered">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
       <form class="form-inline float-xs-right">
-        <input class="form-control" type="text" placeholder="Search">
-        <button class="btn btn-secondary fa fa-search " type="submit"></button>
+        <!--<input class="form-control" type="text" placeholder="Search">-->
+        <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
-    </nav>
-    <h1 style="color:#2f363b;margin-left:1rem;">The Johnson Center</h1>
-    <hr>
-    <div class="card-content">
-      <div *ngFor="let location of locations" class="location-card card col-xs">
-        <img class="location-background-picture" src="{{location.picture}}" alt="Card image">
-        <img class="location-circle-picture" src="{{secondPic}}" alt="Card image">
-        <div class="card-block">
-          <h4 class="card-title mb-0">{{location._name}}</h4>
-          <p class="card-text">Opening Time: {{location.openTimes[dayOfTheWeek] | date:'shortTime'}}</p>
-          <p class="card-text">Closing Time: {{location.closeTimes[dayOfTheWeek] | date:'shortTime'}}</p>
-        </div>
-      </div>
     </div>
+  </nav>
+  <div class="mountain-backgound">
+
   </div>
 </div>
