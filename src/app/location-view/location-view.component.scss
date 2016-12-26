@@ -4,6 +4,7 @@ $card-width: 15rem;
 $card-height: 20rem;
 $card-border-radius:0.25rem;
 $card-border:1px solid rgba(0, 0, 0, 0.125);
+$sidebar-icon-diameter:5rem;
 
 //picture height
 $card-background-height: 8.5rem;
@@ -36,6 +37,7 @@ $card-circle-picture-diameter:7rem;
   overflow: hidden;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  margin:.5rem;
 }
 
 .location-card:hover {
@@ -61,20 +63,51 @@ $card-circle-picture-diameter:7rem;
 
 .sidebar {
   height: 100%;
-  width: 25%;
-  background-color: #28282B;
+  width: 98px;
+  //20%
+  background-color: #2b2b2b;
   transition:all .5s cubic-bezier(0.55, 0, 0.1, 1);
+  color: #D7D7D4;
 }
 
 .main-content {
-  width:75%;
+  width:100%;
   height:100%;
-  display:flex;
-  background: center center no-repeat scroll #f5f5ef;
-  background-image: url('../assets/clock.png');
+  background: center center no-repeat scroll #f2f2f2;// #f5f5ef light cream
+  background-image: url('../assets/clock.png');  // possible use the mason M logo here
   background-repeat: repeat;
+ 
+}
+.card-content {
+  display:flex;
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
 
+hr { 
+    display: block;
+    margin:.5rem;
+    margin-right: auto;
+    // border-style: inset;
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    border-width: 2px;
+    max-width: 75%;
+    color: black;
+
+}
+.sidebar-heading {
+  margin-top: .5rem;
+  margin-left: .5rem;
+}
+.sidebar-icon {
+  // right:($card-width/2) - ($card-circle-picture-diameter/2);
+  // top:$card-background-height - ($card-circle-picture-diameter/2);
+  border-radius:50%;
+  // border:5px solid rgba(255, 255, 255, 1);
+  // box-shadow: 0 0 1px white;
+  height: $sidebar-icon-diameter;
+  width: $sidebar-icon-diameter;
+}
 @mixin transition($transition...) {
     -moz-transition:    $transition;
     -o-transition:      $transition;

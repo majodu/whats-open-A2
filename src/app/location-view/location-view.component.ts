@@ -9,6 +9,10 @@ export class LocationViewComponent implements OnInit {
   locations: Location[] = [];
   dayOfTheWeek: number;
   secondPic = '../assets/BKing.jpg';
+  icon1 = '../assets/square.jpeg';
+  icon2 = '../assets/Adobe.png';
+  icon3 = '../assets/Fedex.jpg';
+  gmuLogo = '../assets/GMU_PLogo_RGB.jpg';
   constructor() { }
 
   ngOnInit() {
