@@ -1,6 +1,6 @@
 //card
-$card-spacing: .5rem;
-$card-width: 15rem;
+$card-spacing: .75rem;
+$card-width: 20rem;
 $card-height: 20rem;
 $card-border-radius:0.25rem;
 $card-border:1px solid rgba(0, 0, 0, 0.125);
@@ -41,18 +41,6 @@ $card-circle-picture-diameter:7rem;
 }
 
 
-// .app-container {
-//    @extend .container;
-//   min-width: 100%;
-//   min-height: 100%;
-//   width: 100%;
-//   height: 100%;
-//   padding-right: 0;
-//   padding-left: 0;
-//   margin-right: 0;
-//   margin-left: 0;
-//   display: flex;
-// }
 
 .location-card {
   width: $card-width;
@@ -64,7 +52,6 @@ $card-circle-picture-diameter:7rem;
   overflow: hidden;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-  margin:.5rem;
 }
 
 .location-card:hover {
@@ -109,35 +96,7 @@ $card-circle-picture-diameter:7rem;
   display:flex;
   margin-left: .5rem;
   margin-right: .5rem;
+  // float:right;
 }
 
-// hr { 
-//     display: block;
-//     margin:.5rem;
-//     margin-right: auto;
-//     // border-style: inset;
-//     border-top: 1px solid rgba(0, 0, 0, 1);
-//     border-width: 2px;
-//     max-width: 75%;
-//     color: black;
 
-// }
-// .sidebar-heading {
-//   margin-top: .5rem;
-//   margin-left: .5rem;
-// }
-// .sidebar-icon {
-//   // right:($card-width/2) - ($card-circle-picture-diameter/2);
-//   // top:$card-background-height - ($card-circle-picture-diameter/2);
-//   border-radius:50%;
-//   // border:5px solid rgba(255, 255, 255, 1);
-//   // box-shadow: 0 0 1px white;
-//   height: $sidebar-icon-diameter;
-//   width: $sidebar-icon-diameter;
-// }
-// @mixin transition($transition...) {
-//     -moz-transition:    $transition;
-//     -o-transition:      $transition;
-//     -webkit-transition: $transition;
-//     transition:         $transition;
-// }
