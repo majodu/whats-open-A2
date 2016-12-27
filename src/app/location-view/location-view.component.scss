@@ -13,15 +13,21 @@ $card-circle-picture-diameter:7rem;
 .centered {
   margin-left: auto;
   margin-right: auto;
+  
+}
+.two-third{
   width: 66%;
 }
-
+.one-third{
+  width: 39%;
+}
 .mountain-backgound {
   background-image: url("../assets/mountains.png");
   background-size: contain;
-  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  padding-top: 285px;
   width:100%;
-   height:100%;
+  height: 100%;
 }
 
 @mixin transition($transition...) {
@@ -29,4 +35,7 @@ $card-circle-picture-diameter:7rem;
   -o-transition: $transition;
   -webkit-transition: $transition;
   transition: $transition;
+}
+.transparent-nav {
+  background-color: rgba(247, 247, 249,.5);
 }
