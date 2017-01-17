@@ -18,9 +18,14 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.scss"
+        "../node_modules/bootstrap/scss/bootstrap.scss",
+        "../node_modules/font-awesome/scss/font-awesome.scss",
+        "styles.scss",
+        "text-styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+       
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Context-Window-&amp;-Filter" transform="translate(-1232.000000, -23.000000)" fill="#354052">
+            <g id="Group" transform="translate(-1.000000, 0.000000)">
+                <g id="Nav-Bar">
+                    <g id="Action-Bar" transform="translate(1191.101617, 6.052734)">
+                        <path d="M45.1119458,19.8661571 L45.1119458,15.1192403 C45.1119458,14.8402601 44.8857153,14.6186797 44.6066458,14.6186797 L44.1247234,14.6186797 C43.8526301,14.6186797 43.6194234,14.8427883 43.6194234,15.1192403 L43.6194234,20.7778286 C43.6194234,21.0568087 43.8456539,21.2783892 44.1247234,21.2783892 L44.2532361,21.2783892 C44.3307611,21.3289709 44.4227641,21.3586794 44.5214352,21.3586794 L50.1800235,21.3586794 C50.4590037,21.3586794 50.6805841,21.1324489 50.6805841,20.8533794 L50.6805841,20.371457 C50.6805841,20.0993637 50.4564755,19.8661571 50.1800235,19.8661571 L45.1119458,19.8661571 Z" id="Arrow" transform="translate(47.150004, 17.988680) rotate(-45.000000) translate(-47.150004, -17.988680) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

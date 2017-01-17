@@ -1,0 +1,31 @@
+$white: #ffffff;
+$primary: #354052;
+$bluegrey: #7f8fa4;
+$border-color: #e6eaee;
+$pale-grey: #dfe3e9;
+$background-color: #eff3f6;
+
+// $color-palette: (
+// 'white' : #ffffff,
+// 'primary' : #354052,
+// 'bluegrey': #7f8fa4,
+// 'border-color': #e6eaee,
+// 'pale-grey': #dfe3e9,
+// 'background-color': #eff3f6
+// );
+
+// @function get-color($key: 'primary') {
+//   @return map-get($color-palette, $key);
+// }
+
+// @function set-opacity($color: #ffffff , $opacity: 0) {
+// //   $color: color-palette($name);
+
+//   // Get the named opacity level, if it exists
+// //   @if map-key-exists($scotch-opacity, $opacity) {
+// //     $opacity: map-get($scotch-opacity, $opacity);
+// //   }
+
+//   // Use rgba() to manipulate the color's alpha level
+//   @return rgba($color, $opacity);
+// }

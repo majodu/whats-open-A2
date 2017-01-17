@@ -1,0 +1,95 @@
+@import "color-palette";
+/* Text styles */
+
+.selected-nav {
+	font-family: HelveticaNeue-Medium;
+	font-size: 14px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: $primary;
+}
+.deselected-nav {
+	font-family: HelveticaNeue-Medium;
+	font-size: 14px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #9fa9ba;
+}
+
+.info-text {
+	font-family: HelveticaNeue-Medium;
+	font-size: 11px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: left;
+	color: $primary;
+}
+
+.card-title {
+	font-family: HelveticaNeue-Medium;
+	font-size: 11px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.55;
+	text-align: center;
+	color: $primary;
+}
+
+.graph-x-axis {
+	font-family: HelveticaNeue;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: $primary;
+}
+
+.graph-y-axis {
+	font-family: HelveticaNeue;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: right;
+	color: $primary;
+}
+
+.info-header {
+	font-family: HelveticaNeue;
+	font-size: 8px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.62;
+	letter-spacing: -0.2px;
+	text-align: left;
+	color: $bluegrey;
+}
+.tag-text{
+	width:20px;
+	font-family: HelveticaNeue-Bold;
+	font-size: 8px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: $white;
+}
+.timeline-text {
+	width: 36px;
+	height: 16px;
+	font-family: HelveticaNeue;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: $primary;
+}

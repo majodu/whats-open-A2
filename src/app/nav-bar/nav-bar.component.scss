@@ -1,0 +1,29 @@
+@import "../../color-palette.scss"; 
+
+.nav-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 17px;
+    margin-left: 24px;
+    background-color: $background-color;
+}
+
+.nav-link {
+    margin-right: 12px;
+}
+.nav-bar {
+    background-color: $white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    // border-radius: 0;
+    // margin-bottom: 0;
+}
+.user-icon {
+    margin-left: auto;
+}
+.menu-arrow {
+   margin-left: 6px;
+   margin-right: 40px;
+}
