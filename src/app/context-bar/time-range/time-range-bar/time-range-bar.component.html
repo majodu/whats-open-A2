@@ -1,0 +1,83 @@
+<svg width="350px" height="21px" viewBox="0 0 350 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Skinny Time Bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="350" height="21" rx="4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="350" height="21" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="2" height="9"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-5">
+            <stop stop-color="#1991EB" offset="0%"></stop>
+            <stop stop-color="#2DA1F8" offset="100%"></stop>
+        </radialGradient>
+       
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-6">
+            <stop stop-color="#000000" stop-opacity="0.17" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skinny-Time-Bar">
+            <g id="Time-Bar">
+                <use id="Base" stroke="#E6EAEE" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <text id="Day" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" fill="#354052">
+                    <tspan x="8.235" y="14">{{dayOfWeek}}</tspan>
+                </text>
+                <g id="Small-Ticks" transform="translate(53.000000, 7.620000)" fill="#354052" fill-opacity="0.75">
+                    <rect id="Small-Tick" x="0.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="13" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="25.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="50.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="63" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="75.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="100.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="113" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="125.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="150.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="163" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="175.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="200.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="213" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="225.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="250.5" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="263" y="0" width="1" height="6"></rect>
+                    <rect id="Small-Tick" x="275.5" y="0" width="1" height="6"></rect>
+                </g>
+                <rect id="Horizontal-Line" fill-opacity="0.5" fill="#354052" x="42" y="9.75" width="300" height="1.5"></rect>
+                <g id="Big-Ticks" transform="translate(40.000000, 6.000000)">
+                    <g id="Big-Tick">
+                        <use fill="#354052" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <rect id="Big-Tick" fill="#354052" x="50.1666667" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="100.333333" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="150.5" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="200.666667" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="250.833333" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="302" y="0" width="2" height="9"></rect>
+                </g>
+                <rect id="Time-Marker" fill-opacity="0.9" fill="url(#radialGradient-5)" [attr.x]="barX" y="4" [attr.width]="barWidth" height="13"
+                    rx="6.5"></rect>
+                    
+                    <rect id="ShadowEnd" fill="url(#radialGradient-6)" [attr.x]="endTimeTextX" y="4" width="35" height="13"></rect>
+                    <text font-family="HelveticaNeue, Helvetica Neue" font-size="8" font-weight="normal" fill="#FFFFFF">
+                        <tspan [attr.x]="endTimeTextX" y="13">{{endTime | date:'shortTime'}}</tspan>
+                    </text>
+                   
+                    <rect id="ShadowStart" fill="url(#radialGradient-6)" [attr.x]="this.startTimeTextX" y="4" width="35" height="13"></rect>
+                    <text font-family="HelveticaNeue, Helvetica Neue" font-size="8" font-weight="normal" fill="#FFFFFF">
+                        <tspan [attr.x]="this.startTimeTextX" y="13">{{startTime | date:'shortTime'}}</tspan>
+                    </text>
+                    
+            </g>
+        </g>
+    </g>
+</svg>

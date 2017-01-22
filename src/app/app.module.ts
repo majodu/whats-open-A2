@@ -7,13 +7,18 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ContextBarComponent } from './context-bar/context-bar.component';
 import { TimeRangeComponent } from './context-bar/time-range/time-range.component';
-
+import { TimeRangeBarComponent } from './context-bar/time-range/time-range-bar/time-range-bar.component';
+import { MapComponent } from './context-bar/map/map.component';
+import { SafeUrlPipe } from './safe-url.pipe';
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     ContextBarComponent,
-    TimeRangeComponent
+    TimeRangeComponent,
+    TimeRangeBarComponent,
+    MapComponent,
+    SafeUrlPipe
   ],
   imports: [
     BrowserModule,

@@ -22,6 +22,7 @@
     "@angular/router": "3.2.3",
     "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
+    "mapbox-gl": "^0.31.0",
     "rxjs": "5.0.0-beta.12",
     "ts-helpers": "^1.1.1",
     "zone.js": "^0.6.23"

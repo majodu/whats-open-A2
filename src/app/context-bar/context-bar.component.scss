@@ -4,7 +4,8 @@
     height: 100%;
     width: 374px;
     float: right;
-    padding: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
 
 .light-card {
@@ -37,13 +38,15 @@ font-family: HelveticaNeue-Medium;
 }
 hr{
     background-color: $border-color;
-    margin-top: 16.5px;
-    margin-bottom: 16.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .info{
     display: flex;
     flex-direction: row;
     // justify-content: space-between;
+    margin-top: 16.5px;
+    margin-bottom: 8.25px;
 }
 .column {
     flex-grow: 1;
@@ -75,7 +78,7 @@ hr{
 }
 .tag-container{
     width: 168px;
-    height:78px;
+    // height:78px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

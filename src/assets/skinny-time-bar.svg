@@ -8,26 +8,21 @@
         <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="350" height="21" fill="white">
             <use xlink:href="#path-1"></use>
         </mask>
-        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-3">
+        <rect id="path-3" x="0" y="0" width="2" height="9"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-5">
             <stop stop-color="#1991EB" offset="0%"></stop>
             <stop stop-color="#2DA1F8" offset="100%"></stop>
         </radialGradient>
-        <text id="text-4" font-family="HelveticaNeue, Helvetica Neue" font-size="8" font-weight="normal" fill="#FFFFFF">
-            <tspan x="203" y="9">8:20 PM</tspan>
-        </text>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <text id="text-6" font-family="HelveticaNeue, Helvetica Neue" font-size="8" font-weight="normal" fill="#FFFFFF">
-            <tspan x="4" y="9">6:20 AM</tspan>
-        </text>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-6">
+            <stop stop-color="#000000" stop-opacity="0.17" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Skinny-Time-Bar">
@@ -57,26 +52,27 @@
                     <rect id="Small-Tick" x="275.5" y="0" width="1" height="6"></rect>
                 </g>
                 <rect id="Horizontal-Line" fill-opacity="0.5" fill="#354052" x="42" y="9.75" width="300" height="1.5"></rect>
-                <g id="Big-Ticks" transform="translate(40.000000, 6.000000)" fill="#354052">
-                    <rect id="Big-Tick" x="0" y="0" width="2" height="9"></rect>
-                    <rect id="Big-Tick" x="50.1666667" y="0" width="2" height="9"></rect>
-                    <rect id="Big-Tick" x="100.333333" y="0" width="2" height="9"></rect>
-                    <rect id="Big-Tick" x="150.5" y="0" width="2" height="9"></rect>
-                    <rect id="Big-Tick" x="200.666667" y="0" width="2" height="9"></rect>
-                    <rect id="Big-Tick" x="250.833333" y="0" width="2" height="9"></rect>
-                    <rect id="Big-Tick" x="302" y="0" width="2" height="9"></rect>
-                </g>
-                <g id="Blue-Bar-with-Text" transform="translate(78.000000, 4.000000)">
-                    <rect id="Time-Marker" fill-opacity="0.9" fill="url(#radialGradient-3)" x="0" y="0" width="237" height="13" rx="6.5"></rect>
-                    <g id="End-Time" fill-opacity="1" fill="#FFFFFF">
-                        <use filter="url(#filter-5)" xlink:href="#text-4"></use>
-                        <use xlink:href="#text-4"></use>
+                <g id="Big-Ticks" transform="translate(40.000000, 6.000000)">
+                    <g id="Big-Tick">
+                        <use fill="#354052" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
                     </g>
-                    <g id="Start-Time" fill-opacity="1" fill="#FFFFFF">
-                        <use filter="url(#filter-7)" xlink:href="#text-6"></use>
-                        <use xlink:href="#text-6"></use>
-                    </g>
+                    <rect id="Big-Tick" fill="#354052" x="50.1666667" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="100.333333" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="150.5" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="200.666667" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="250.833333" y="0" width="2" height="9"></rect>
+                    <rect id="Big-Tick" fill="#354052" x="302" y="0" width="2" height="9"></rect>
                 </g>
+                <rect id="Time-Marker" fill-opacity="0.9" fill="url(#radialGradient-5)" x="78" y="4" width="237" height="13" rx="6.5"></rect>
+                <rect id="ShadowEnd" fill="url(#radialGradient-6)" x="277" y="4" width="35" height="13"></rect>
+                <text id="End-Time" font-family="HelveticaNeue, Helvetica Neue" font-size="8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="277" y="13">12:20 PM</tspan>
+                </text>
+                <rect id="ShadowStart" fill="url(#radialGradient-6)" x="81" y="4" width="35" height="13"></rect>
+                <text id="Start-Time" font-family="HelveticaNeue, Helvetica Neue" font-size="8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="81" y="13">12:20 AM</tspan>
+                </text>
             </g>
         </g>
     </g>
