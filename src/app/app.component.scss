@@ -2,3 +2,23 @@
     height:100%;
     width:100%;
 }
+.main-content{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    // background-color: #00FFFF
+} 
+.place-window{
+    width: 100%;
+    height: 100%;
+    // background-color: blue;
+    padding-right:30px;
+    padding-left:30px;
+
+}
+.center {
+    margin-left: 100px;
+    margin-right: auto;
+    // width: 100%;
+}

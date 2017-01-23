@@ -10,6 +10,9 @@ import { TimeRangeComponent } from './context-bar/time-range/time-range.componen
 import { TimeRangeBarComponent } from './context-bar/time-range/time-range-bar/time-range-bar.component';
 import { MapComponent } from './context-bar/map/map.component';
 import { SafeUrlPipe } from './safe-url.pipe';
+import { PlaceWindowComponent } from './place-window/place-window.component';
+import { PlaceCardComponent } from './place-window/area/place-card/place-card.component';
+import { AreaComponent } from './place-window/area/area.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,10 @@ import { SafeUrlPipe } from './safe-url.pipe';
     TimeRangeComponent,
     TimeRangeBarComponent,
     MapComponent,
-    SafeUrlPipe
+    SafeUrlPipe,
+    PlaceWindowComponent,
+    PlaceCardComponent,
+    AreaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,86 @@
+$hex-border-color: #C1C7CD;
+.hexagon {
+  position: relative;
+  width: 60px; 
+  height: 34.64px;
+  margin: 17.32px 0;
+  background-image: url("../../assets/JC.jpg");
+  background-size: auto 64.4323px;
+  background-position: center;
+  border-left: solid 2.1px $hex-border-color;
+  border-right: solid 2.1px $hex-border-color;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 42.43px;
+  height: 42.43px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 6.69px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 55.8000px;
+  height: 32.21614502078112px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-16.1081px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-16.1081px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-16.1081px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -21.2132px;
+  border-top: solid 2.9698px $hex-border-color;
+  border-right: solid 2.9698px $hex-border-color;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -21.2132px;
+  border-bottom: solid 2.9698px $hex-border-color;
+  border-left: solid 2.9698px $hex-border-color;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 1.2124px;
+  left: 0;
+  width: 55.8000px;
+  height: 32.2161px;
+  z-index: 2;
+  background: inherit;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    // width: 100%;
+}
+.area-title {
+    text-align: center;
+    color:#68768C;
+}
+hr {
+    height:1.5px;
+    background-color:rgba(104, 118, 140, 0.5); 
+}
