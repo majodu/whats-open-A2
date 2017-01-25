@@ -24,18 +24,26 @@
     margin-left: 5px;
 }
 
-.place-status-open {
+.place-status {
     height: 18px;
-    width: 71px;
-    background-color: $open-green;
     border-radius: 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 5px;
 }
+.status-open{
+    @extend .place-status;
+    background-color: $open-green;
+    width: 71px;
+}
+.status-closed{
+    @extend .place-status;
+    background-color: $closed-grey;
+    width: 80px;
+}
 .hr-vertical{
-    height: 17px;
+    height: 18px;
     background-color: $white;
     opacity: 0.6;
     width:1px;
@@ -45,7 +53,6 @@
 }
 .status-text {
     margin-left: 3px;
-    width:30px;
     height:11px;
     font-family: HelveticaNeue-Medium;
     font-size: 9px;
@@ -56,6 +63,18 @@
     letter-spacing: normal;
     // text-align: center;
     color: $white;
+    
+}
+.text-open{
+    @extend .status-text;
+    width:27px;
+    margin-right: 3px;
+
+}
+.text-closed{
+    @extend .status-text;
+    width:37px;
+    margin-right: 3px;
 }
 .star-icon{
     color:$primary;
