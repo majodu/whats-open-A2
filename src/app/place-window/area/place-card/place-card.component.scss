@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    box-sizing: content-box;
 }
 
 .light-card {
@@ -20,9 +21,10 @@
     width: 84px;
     border: 5px solid $border-color;
     border-radius: 50%;
+    margin-left: 5px;
 }
 
-.place-status {
+.place-status-open {
     height: 18px;
     width: 71px;
     background-color: $open-green;
@@ -30,9 +32,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 5px;
 }
 .hr-vertical{
-    height: 18px;
+    height: 17px;
     background-color: $white;
     opacity: 0.6;
     width:1px;
@@ -41,9 +44,10 @@
     margin-bottom: 0px;
 }
 .status-text {
+    margin-left: 3px;
     width:30px;
     height:11px;
-    font-family: HelveticaNeue;
+    font-family: HelveticaNeue-Medium;
     font-size: 9px;
     font-weight: 500;
     font-style: normal;
@@ -52,4 +56,45 @@
     letter-spacing: normal;
     // text-align: center;
     color: $white;
+}
+.star-icon{
+    color:$primary;
+    align-self: flex-end;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+.place-info-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100px;
+    height: 111px;
+    // background-color: rosybrown;
+}
+.place-title{
+    width: 99px;
+	height: 17px;
+	font-family: HelveticaNeue-Medium;
+	font-size: 15px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.13;
+	letter-spacing: normal;
+	text-align: center;
+	color: $primary;
+    margin-bottom: 5px;
+}
+.place-location{
+    width: 99px;
+	height: 13px;
+	font-family: HelveticaNeue;
+	font-size: 8px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.62;
+	letter-spacing: -0.2px;
+	text-align: center;
+	color: $bluegrey;
 }
