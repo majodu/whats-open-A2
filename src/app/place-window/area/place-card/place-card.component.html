@@ -3,11 +3,7 @@
     <div class="place-info-block">
         <i class="fa fa-star-o star-icon" aria-hidden="true"></i>
         <div class="place-title">{{place.name}}</div>
-        <!--<div class="place-status-open">
-            <div class="status-text">OPEN</div>
-            <hr class="hr-vertical">
-            <div class="status-text">~13Hrs</div>
-        </div>-->
+        
         <div [ngClass]="(place.status === 'open')?'status-open' : 'status-closed'">
             <div [ngClass]="(place.status==='open' )? 'text-open' : 'text-closed' ">{{status}}</div>
             <hr class="hr-vertical">
