@@ -2,979 +2,156 @@
 	{
 		"title": "Wing Zone   Fairfax Campus, The Hub",
 		"location": "Fairfax Campus, The Hub",
-		"operationHours": [
-			[
-				"11,00,am",
-				"11,00,pm"
-			],
-			[
-				"11,00,am",
-				"11,00,pm"
-			],
-			[
-				"11,00,am",
-				"11,00,pm"
-			],
-			[
-				"11,00,am",
-				"11,00,pm"
-			],
-			[
-				"11,00,am",
-				"11,00,pm"
-			],
-			[
-				"12,00,pm",
-				"11,00pm"
-			],
-			[
-				"12,00,pm",
-				"11,00pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 11:00 am   - 11:00 pm Tuesday: 11:00 am   - 11:00 pm Wednesday: 11:00 am   - 11:00 pm Thursday: 11:00 am   - 11:00 pm Friday: 11:00 am   - 11:00 pm Saturday: 12:00 pm   - 11:00 pm Sunday: 12:00 pm   - 11:00 pm "
 	},
 	{
 		"title": "Panera Bread   Fairfax Campus, Johnson Center",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": [
-			[
-				"07,00,am",
-				"10,00,pm"
-			],
-			[
-				"07,00,am",
-				"10,00,pm"
-			],
-			[
-				"07,00,am",
-				"10,00,pm"
-			],
-			[
-				"07,00,am",
-				"10,00,pm"
-			],
-			[
-				"07,00,am",
-				"10,00,pm"
-			],
-			[
-				"08,00,am",
-				"10,00,pm"
-			],
-			[
-				"08,00,am",
-				"09,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 07:00 am   - 10:00 pm Tuesday: 07:00 am   - 10:00 pm Wednesday: 07:00 am   - 10:00 pm Thursday: 07:00 am   - 10:00 pm Friday: 07:00 am   - 10:00 pm Saturday: 08:00 am   - 10:00 pm Sunday: 08:00 am   - 09:00 pm "
 	},
 	{
 		"title": "Panda Express   Fairfax Campus, Merten Hall",
 		"location": "Fairfax Campus, Merten Hall",
-		"operationHours": [
-			[
-				"10,30,am",
-				"09,00,pm"
-			],
-			[
-				"10,30,am",
-				"09,00,pm"
-			],
-			[
-				"10,30,am",
-				"09,00,pm"
-			],
-			[
-				"10,30,am",
-				"09,00,pm"
-			],
-			[
-				"10,30,am",
-				"08,00,pm"
-			],
-			[
-				"11,30,am",
-				"05,00,pm"
-			],
-			[
-				"11,30,am",
-				"05,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 10:30 am   - 09:00 pm Tuesday: 10:30 am   - 09:00 pm Wednesday: 10:30 am   - 09:00 pm Thursday: 10:30 am   - 09:00 pm Friday: 10:30 am   - 08:00 pm Saturday: 11:30 am   - 05:00 pm Sunday: 11:30 am   - 05:00 pm "
 	},
 	{
 		"title": "Manhattan Pizza   Fairfax Campus, Merten Hall",
 		"location": "Fairfax Campus, Merten Hall",
-		"operationHours": [
-			[
-				"10,00,am",
-				"10,00,pm"
-			],
-			[
-				"10,00,am",
-				"10,00,pm"
-			],
-			[
-				"10,00,am",
-				"10,00,pm"
-			],
-			[
-				"10,00,am",
-				"10,00,pm"
-			],
-			[
-				"10,00,am",
-				"12,00am"
-			],
-			[
-				"11,00,am",
-				"12,00am"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 10:00 am   - 10:00 pm Tuesday: 10:00 am   - 10:00 pm Wednesday: 10:00 am   - 10:00 pm Thursday: 10:00 am   - 10:00 pm Friday: 10:00 am   - 12:00 am Saturday: 11:00 am   - 12:00 am Sunday: 11:00 am   - 09:00 pm "
 	},
 	{
 		"title": "Argo Tea   Fairfax Campus, Fenwick Library",
 		"location": "Fairfax Campus, Fenwick Library",
-		"operationHours": [
-			[
-				"07,00,am",
-				"11,00,pm"
-			],
-			[
-				"07,00,am",
-				"11,00,pm"
-			],
-			[
-				"07,00,am",
-				"11,00,pm"
-			],
-			[
-				"07,00,am",
-				"11,00,pm"
-			],
-			[
-				"07,00,am",
-				"07,00,pm"
-			],
-			[
-				"10,00,am",
-				"04,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 07:00 am   - 11:00 pm Tuesday: 07:00 am   - 11:00 pm Wednesday: 07:00 am   - 11:00 pm Thursday: 07:00 am   - 11:00 pm Friday: 07:00 am   - 07:00 pm Saturday: 10:00 am   - 04:00 pm Sunday: 11:00 am   - 09:00 pm "
 	},
 	{
 		"title": "Taco Bell   Fairfax Campus, SUB I",
 		"location": "Fairfax Campus, SUB I",
-		"operationHours": [
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"03,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 11:00 am   - 08:00 pm Tuesday: 11:00 am   - 08:00 pm Wednesday: 11:00 am   - 08:00 pm Thursday: 11:00 am   - 08:00 pm Friday: 11:00 am   - 03:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Subway   Fairfax Campus, Rogers Hall",
 		"location": "Fairfax Campus, Rogers Hall",
-		"operationHours": [
-			[
-				"09,00,am",
-				"10,00,pm"
-			],
-			[
-				"09,00,am",
-				"10,00,pm"
-			],
-			[
-				"09,00,am",
-				"10,00,pm"
-			],
-			[
-				"09,00,am",
-				"10,00,pm"
-			],
-			[
-				"09,00,am",
-				"10,00,pm"
-			],
-			[
-				"11,00,am",
-				"10,00,pm"
-			],
-			[
-				"11,00,am",
-				"10,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 09:00 am   - 10:00 pm Tuesday: 09:00 am   - 10:00 pm Wednesday: 09:00 am   - 10:00 pm Thursday: 09:00 am   - 10:00 pm Friday: 09:00 am   - 10:00 pm Saturday: 11:00 am   - 10:00 pm Sunday: 11:00 am   - 10:00 pm "
 	},
 	{
 		"title": "Star Ginger   Fairfax Campus, Johnson Center",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": [
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 11:00 am   - 09:00 pm Tuesday: 11:00 am   - 09:00 pm Wednesday: 11:00 am   - 09:00 pm Thursday: 11:00 am   - 09:00 pm Friday: 11:00 am   - 08:00 pm Saturday: 11:00 am   - 08:00 pm Sunday: 11:00 am   - 08:00 pm "
 	},
 	{
 		"title": "Starbucks   Fairfax Campus, Northern Neck",
 		"location": "Fairfax Campus, Northern Neck",
-		"operationHours": [
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 24 HoursTuesday:  24 HoursWednesday:  24 HoursThursday:  24 HoursFriday:  24 HoursSaturday:  24 HoursSunday:  24 Hours"
 	},
 	{
 		"title": "Starbucks   Fairfax Campus, Johnson Center",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": [
-			[
-				"07,00,am",
-				"10,00,pm"
-			],
-			[
-				"07,00,am",
-				"10,00,pm"
-			],
-			[
-				"07,00,am",
-				"10,00,pm"
-			],
-			[
-				"07,00,am",
-				"10,00,pm"
-			],
-			[
-				"07,00,am",
-				"05,00,pm"
-			],
-			[
-				"11,00,am",
-				"05,00,pm"
-			],
-			[
-				"11,00,am",
-				"05,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 07:00 am   - 10:00 pm Tuesday: 07:00 am   - 10:00 pm Wednesday: 07:00 am   - 10:00 pm Thursday: 07:00 am   - 10:00 pm Friday: 07:00 am   - 05:00 pm Saturday: 11:00 am   - 05:00 pm Sunday: 11:00 am   - 05:00 pm "
 	},
 	{
 		"title": "Southside   Fairfax Campus, Southside",
 		"location": "Fairfax Campus, Southside",
-		"operationHours": [
-			[
-				"Mond,ay07,00am",
-				"02,00amTuesday07,00am",
-				"02,00amWednesday07,00am",
-				"02,00amThursday07,00am",
-				"02,00amFriday07,00am",
-				"02,00amSaturday10,30am",
-				"02,00amSunday10,30am",
-				"02,00am"
-			]
-		]
+		"operationHours": "Hours of OperationMonday 07:00am - 02:00am Tuesday 07:00am - 02:00am Wednesday 07:00am - 02:00am Thursday 07:00am - 02:00am Friday 07:00am - 02:00am Saturday 10:30am - 02:00am Sunday 10:30am - 02:00am "
 	},
 	{
 		"title": "Simply To Go   Fairfax Campus, SUB I",
 		"location": "Fairfax Campus, SUB I",
-		"operationHours": [
-			[
-				"10,30,am",
-				"03,00,pm"
-			],
-			[
-				"10,30,am",
-				"03,00,pm"
-			],
-			[
-				"10,30,am",
-				"03,00,pm"
-			],
-			[
-				"10,30,am",
-				"03,00,pm"
-			],
-			[
-				"10,30,am",
-				"03,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 10:30 am   - 03:00 pm Tuesday: 10:30 am   - 03:00 pm Wednesday: 10:30 am   - 03:00 pm Thursday: 10:30 am   - 03:00 pm Friday: 10:30 am   - 03:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Second Stop Patriot Shop   Fairfax Campus, Rogers Hall",
 		"location": "Fairfax Campus, Rogers Hall",
-		"operationHours": [
-			[
-				"08,00,am",
-				"10,00,pm"
-			],
-			[
-				"08,00,am",
-				"10,00,pm"
-			],
-			[
-				"08,00,am",
-				"10,00,pm"
-			],
-			[
-				"08,00,am",
-				"10,00,pm"
-			],
-			[
-				"08,00,am",
-				"10,00,pm"
-			],
-			[
-				"10,00,am",
-				"10,00,pm"
-			],
-			[
-				"10,00,am",
-				"10,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 08:00 am   - 10:00 pm Tuesday: 08:00 am   - 10:00 pm Wednesday: 08:00 am   - 10:00 pm Thursday: 08:00 am   - 10:00 pm Friday: 08:00 am   - 10:00 pm Saturday: 10:00 am   - 10:00 pm Sunday: 10:00 am   - 10:00 pm "
 	},
 	{
 		"title": "Red Hot & Blue   Fairfax Campus, Johnson Center",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": [
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 11:00 am   - 09:00 pm Tuesday: 11:00 am   - 09:00 pm Wednesday: 11:00 am   - 09:00 pm Thursday: 11:00 am   - 09:00 pm Friday: 11:00 am   - 09:00 pm Saturday: 11:00 am   - 09:00 pm Sunday: 11:00 am   - 09:00 pm "
 	},
 	{
 		"title": "Rathskeller   Fairfax Campus, SUB I",
 		"location": "Fairfax Campus, SUB I",
-		"operationHours": [
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 11:00 am   - 09:00 pm Tuesday: 11:00 am   - 09:00 pm Wednesday: 11:00 am   - 09:00 pm Thursday: 11:00 am   - 09:00 pm Friday: 11:00 am   - 09:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Randall's Cafe   SciTech (Prince William Campus)",
 		"location": "SciTech (Prince William Campus)",
-		"operationHours": [
-			[
-				"07,30,am",
-				"06,00,pm"
-			],
-			[
-				"07,30,am",
-				"06,00,pm"
-			],
-			[
-				"07,30,am",
-				"06,00,pm"
-			],
-			[
-				"07,30,am",
-				"06,00,pm"
-			],
-			[
-				"07,30,am",
-				"02,30,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 07:30 am   - 06:00 pm Tuesday: 07:30 am   - 06:00 pm Wednesday: 07:30 am   - 06:00 pm Thursday: 07:30 am   - 06:00 pm Friday: 07:30 am   - 02:30 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Peet's Coffee   Fairfax Campus, Innovation Hall",
 		"location": "Fairfax Campus, Innovation Hall",
-		"operationHours": [
-			[
-				"07,30,am",
-				"04,00,pm"
-			],
-			[
-				"07,30,am",
-				"04,00,pm"
-			],
-			[
-				"07,30,am",
-				"04,00,pm"
-			],
-			[
-				"07,30,am",
-				"04,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 07:30 am   - 04:00 pm Tuesday: 07:30 am   - 04:00 pm Wednesday: 07:30 am   - 04:00 pm Thursday: 07:30 am   - 04:00 pm Friday: ClosedSaturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Peet's Coffee   Fairfax Campus, Exploratory Hall",
 		"location": "Fairfax Campus, Exploratory Hall",
-		"operationHours": [
-			[
-				"08,30,am",
-				"04,00,pm"
-			],
-			[
-				"08,30,am",
-				"04,00,pm"
-			],
-			[
-				"08,30,am",
-				"04,00,pm"
-			],
-			[
-				"08,30,am",
-				"04,00,pm"
-			],
-			[
-				"08,30,am",
-				"04,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 08:30 am   - 04:00 pm Tuesday: 08:30 am   - 04:00 pm Wednesday: 08:30 am   - 04:00 pm Thursday: 08:30 am   - 04:00 pm Friday: 08:30 am   - 04:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "One Stop Patriot Shop   Fairfax Campus, Blue Ridge",
 		"location": "Fairfax Campus, Blue Ridge",
-		"operationHours": [
-			[
-				"Mond,ay10,00am",
-				"02,00amTuesday10,00am",
-				"02,00amWednesday10,00am",
-				"02,00amThursday10,00am",
-				"02,00amFriday10,00am",
-				"12,00amSaturday12,00,pm",
-				"12,00amSunday12,00pm",
-				"12,00am"
-			]
-		]
+		"operationHours": "Hours of OperationMonday 10:00 am - 02:00 am Tuesday 10:00 am - 02:00 am  Wednesday 10:00 am - 02:00 am  Thursday 10:00 am - 02:00 am  Friday 10:00 am - 12:00 am  Saturday 12:00 pm - 12:00 am  Sunday 12:00 pm - 12:00 am  "
 	},
 	{
 		"title": "Jorge's   Fairfax Campus, Johnson Center",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": [
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"05,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 11:00 am   - 08:00 pm Tuesday: 11:00 am   - 08:00 pm Wednesday: 11:00 am   - 08:00 pm Thursday: 11:00 am   - 08:00 pm Friday: 11:00 am   - 05:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "IndAroma   Fairfax Campus, Johnson Center",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": [
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			],
-			[
-				"11,00,am",
-				"09,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 11:00 am   - 09:00 pm Tuesday: 11:00 am   - 09:00 pm Wednesday: 11:00 am   - 09:00 pm Thursday: 11:00 am   - 09:00 pm Friday: 11:00 am   - 09:00 pm Saturday: 11:00 am   - 09:00 pm Sunday: 11:00 am   - 09:00 pm "
 	},
 	{
 		"title": "Ike's   Fairfax Campus, President's Park",
 		"location": "Fairfax Campus, President's Park",
-		"operationHours": [
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			],
-			[
-				"24Hours"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 24 HoursTuesday:  24 HoursWednesday:  24 HoursThursday:  24 HoursFriday:  24 HoursSaturday:  24 HoursSunday:  24 Hours"
 	},
 	{
 		"title": "The Globe   Fairfax Campus, The Global Center",
 		"location": "Fairfax Campus, The Global Center",
-		"operationHours": [
-			[
-				"08,00,am",
-				"08,00,pm"
-			],
-			[
-				"08,00,am",
-				"08,00,pm"
-			],
-			[
-				"08,00,am",
-				"08,00,pm"
-			],
-			[
-				"08,00,am",
-				"08,00,pm"
-			],
-			[
-				"08,00,am",
-				"08,00,pm"
-			],
-			[
-				"10,30,am",
-				"07,00,pm"
-			],
-			[
-				"10,30,am",
-				"07,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 08:00 am   - 08:00 pm Tuesday: 08:00 am   - 08:00 pm Wednesday: 08:00 am   - 08:00 pm Thursday: 08:00 am   - 08:00 pm Friday: 08:00 am   - 08:00 pm Saturday: 10:30 am   - 07:00 pm Sunday: 10:30 am   - 07:00 pm "
 	},
 	{
 		"title": "Freshens   Fairfax Campus, The RAC",
 		"location": "Fairfax Campus, The RAC",
-		"operationHours": [
-			[
-				"01,00,pm",
-				"09,00pm"
-			],
-			[
-				"01,00,pm",
-				"09,00pm"
-			],
-			[
-				"01,00,pm",
-				"09,00pm"
-			],
-			[
-				"01,00,pm",
-				"09,00pm"
-			],
-			[
-				"01,00,pm",
-				"04,00pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 01:00 pm   - 09:00 pm Tuesday: 01:00 pm   - 09:00 pm Wednesday: 01:00 pm   - 09:00 pm Thursday: 01:00 pm   - 09:00 pm Friday: 01:00 pm   - 04:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Freshens   Fairfax Campus, Johnson Center",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": [
-			[
-				"10,00,am",
-				"08,00,pm"
-			],
-			[
-				"10,00,am",
-				"08,00,pm"
-			],
-			[
-				"10,00,am",
-				"08,00,pm"
-			],
-			[
-				"10,00,am",
-				"08,00,pm"
-			],
-			[
-				"10,00,am",
-				"05,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 10:00 am   - 08:00 pm Tuesday: 10:00 am   - 08:00 pm Wednesday: 10:00 am   - 08:00 pm Thursday: 10:00 am   - 08:00 pm Friday: 10:00 am   - 05:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Express   Fairfax Campus, Johnson Center",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": [
-			[
-				"07,00,am",
-				"11,00,pm"
-			],
-			[
-				"07,00,am",
-				"11,00,pm"
-			],
-			[
-				"07,00,am",
-				"11,00,pm"
-			],
-			[
-				"07,00,am",
-				"11,00,pm"
-			],
-			[
-				"07,00,am",
-				"11,00,pm"
-			],
-			[
-				"09,00,am",
-				"11,00,pm"
-			],
-			[
-				"09,00,am",
-				"11,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 07:00 am   - 11:00 pm Tuesday: 07:00 am   - 11:00 pm Wednesday: 07:00 am   - 11:00 pm Thursday: 07:00 am   - 11:00 pm Friday: 07:00 am   - 11:00 pm Saturday: 09:00 am   - 11:00 pm Sunday: 09:00 am   - 11:00 pm "
 	},
 	{
 		"title": "Einstein Bros. Bagels   Fairfax Campus, Merten Hall",
 		"location": "Fairfax Campus, Merten Hall",
-		"operationHours": [
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 07:30 am   - 05:00 pm Tuesday: 07:30 am   - 05:00 pm Wednesday: 07:30 am   - 05:00 pm Thursday: 07:30 am   - 05:00 pm Friday: 07:30 am   - 05:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Einstein Bros. Bagels   Fairfax Campus, Engineering Building",
 		"location": "Fairfax Campus, Engineering Building",
-		"operationHours": [
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"07,30,am",
-				"05,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 07:30 am   - 05:00 pm Tuesday: 07:30 am   - 05:00 pm Wednesday: 07:30 am   - 05:00 pm Thursday: 07:30 am   - 05:00 pm Friday: 07:30 am   - 05:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Chick Fil A   Fairfax Campus, SUB I",
 		"location": "Fairfax Campus, SUB I",
-		"operationHours": [
-			[
-				"08,00,am",
-				"09,00,pm"
-			],
-			[
-				"08,00,am",
-				"09,00,pm"
-			],
-			[
-				"08,00,am",
-				"09,00,pm"
-			],
-			[
-				"08,00,am",
-				"09,00,pm"
-			],
-			[
-				"08,00,am",
-				"03,00,pm"
-			],
-			[
-				"Closed"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 08:00 am   - 09:00 pm Tuesday: 08:00 am   - 09:00 pm Wednesday: 08:00 am   - 09:00 pm Thursday: 08:00 am   - 09:00 pm Friday: 08:00 am   - 03:00 pm Saturday: ClosedSunday: Closed"
 	},
 	{
 		"title": "Burger King   Fairfax Campus, Johnson Center",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": [
-			[
-				"07,30,am",
-				"09,00,pm"
-			],
-			[
-				"07,30,am",
-				"09,00,pm"
-			],
-			[
-				"07,30,am",
-				"09,00,pm"
-			],
-			[
-				"07,30,am",
-				"09,00,pm"
-			],
-			[
-				"07,30,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			],
-			[
-				"11,00,am",
-				"08,00,pm"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 07:30 am   - 09:00 pm Tuesday: 07:30 am   - 09:00 pm Wednesday: 07:30 am   - 09:00 pm Thursday: 07:30 am   - 09:00 pm Friday: 07:30 am   - 08:00 pm Saturday: 11:00 am   - 08:00 pm Sunday: 11:00 am   - 08:00 pm "
 	},
 	{
 		"title": "Au Bon Pain   Arlington Campus",
 		"location": "Arlington Campus",
-		"operationHours": [
-			[
-				"08,30,am",
-				"08,30,pm"
-			],
-			[
-				"08,30,am",
-				"08,30,pm"
-			],
-			[
-				"08,30,am",
-				"08,30,pm"
-			],
-			[
-				"08,30,am",
-				"08,30,pm"
-			],
-			[
-				"08,30,am",
-				"03,00,pm"
-			],
-			[
-				"08,30,am",
-				"02,00,pm"
-			],
-			[
-				"Closed"
-			]
-		]
+		"operationHours": "Hours of OperationMonday: 08:30 am   - 08:30 pm Tuesday: 08:30 am   - 08:30 pm Wednesday: 08:30 am   - 08:30 pm Thursday: 08:30 am   - 08:30 pm Friday: 08:30 am   - 03:00 pm Saturday: 08:30 am   - 02:00 pm Sunday: Closed"
 	}
 ]

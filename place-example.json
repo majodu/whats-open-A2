@@ -1,0 +1,65 @@
+{
+    "name": "Burger King",
+    "location": "The Johnson Center",
+    "date_changed": "2015-08-31T16:52:09.600Z",
+    "phone_number":"703-121-3212",
+    "tap_n_go_link":"https://www.tapingo.com/order/restaurant/starbucks-gmu/",
+    "tags":["vegan","mexican"],
+    "address": "4335 Chesapeake River Way Fairfax, Virginia",
+    "latitude":"38.8340368",
+    "longitude":"-77.3098702",
+    "operation_hours":[
+        {
+            "special_status":false,
+            "is_closed":false,
+            "open_all_day":false,
+            "open_time":[9,40],
+            "close_time":[14,30]
+        },
+        {
+            "special_status":"Closed for Construction",
+            "is_closed":true,
+            "open_all_day":false,
+            "open_time":false,
+            "close_time":false
+        },
+        {
+            "special_status":false,
+            "is_closed":false,
+            "open_all_day":true,
+            "open_time":false,
+            "close_time":false
+        },
+        {
+            "special_status":false,
+            "is_closed":false,
+            "open_all_day":false,
+            "open_time":[9,40],
+            "close_time":[14,30]
+        },
+        {
+            "special_status":false,
+            "is_closed":false,
+            "open_all_day":false,
+            "open_time":[9,40],
+            "close_time":[14,30]
+        },
+        {
+            "special_status":false,
+            "is_closed":false,
+            "open_all_day":false,
+            "open_time":[9,40],
+            "close_time":[14,30]
+        },
+        {
+            "special_status":false,
+            "is_closed":false,
+            "open_all_day":false,
+            "open_time":[9,40],
+            "close_time":[14,30]
+        }
+    ]
+        
+    
+    
+}
