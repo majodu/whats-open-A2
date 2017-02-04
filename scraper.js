@@ -8,90 +8,69 @@ var time = XRegExp('((?<closed> closed) | (?<all_day> 24(\\s?)*hours) | (?<open_
                     (?<close_hour>  [01][0-9] ) :    \n\
                     (?<close_minute> [0-9][0-9] ) (\\s?)*   \n\
                     (?<close_ampm>   [ap]m ))     ', 'ix');
-var thing = {
-    "is_closed": false,
-    "open_all_day": false,
-    "open_time": [9, 40],
-    "close_time": [14, 30]
-};
+// x-filters are like pipes in Angular 2. if you put a "| functionName" after data it runs that data through the funciton
 var x = Xray({
     filters: {
-        trim: function (value) {
-            return value.trim();
-        },
-        reverse: function (value) {
-            return typeof value === 'string' ? value.split('').reverse().join('') : value;
-        },
-        slice: function (value, start, end) {
-            return typeof value === 'string' ? value.slice(start, end) : value;
-        },
         parse_op_hrs: function (value) {
             var operation_hours = [];
             XRegExp.forEach(value, time, function (match) {
-                if (match.closed === undefined) {
-                    operation_hours.unshift();
+                if (match.closed !== undefined) {
+                    operation_hours.push({
+                        "special_status": "",
+                        "is_closed": true,
+                        "open_all_day": false,
+                        "open_time": false,
+                        "close_time": false
+                    });
                 }
-                else if (match.all_day === undefined) {
+                else if (match.all_day !== undefined) {
+                    operation_hours.push({
+                        "special_status": "",
+                        "is_closed": false,
+                        "open_all_day": true,
+                        "open_time": false,
+                        "close_time": false
+                    });
                 }
                 else {
+                    (match.open_ampm === 'pm') ? match.open_hour = (Number(match.open_hour) + 12) :
+                        match.open_hour = Number(match.open_hour);
+                    (match.close_ampm === 'pm') ? match.close_hour = (Number(match.close_hour) + 12) :
+                        match.close_hour = Number(match.close_hour);
+                    operation_hours.push({
+                        "special_status": "",
+                        "is_closed": false,
+                        "open_all_day": false,
+                        "open_time": [match.open_hour, Number(match.open_minute)],
+                        "close_time": [match.close_hour, Number(match.close_minute)]
+                    });
                 }
             });
             return operation_hours;
         }
     }
 });
+// this is where xray scrapes the data and creates a json object out of it 
 x('http://dining.gmu.edu/dining-choices/hours-of-operation/', {
-    title: ['.storename | trim'],
-    location: ['.location | trim'],
-    operationHours: ['.open-closed-sign | parse_op_hrs']
+    title: ['.storename'],
+    location: ['.location'],
+    operation_hours: ['.open-closed-sign | parse_op_hrs']
 })(function (err, obj) {
     var newObj = [];
     for (var i = 0; i < obj.title.length; i++) {
+        // this next line fixes the problem with the .storename tag putting the title and location in
+        // the same string
+        obj.title[i] = obj.title[i].replace(obj.location[i], '');
         var entry = {
-            title: obj.title[i],
-            location: obj.location[i],
+            title: obj.title[i].trim(),
+            location: obj.location[i].trim(),
             operation_hours: obj.operation_hours[i]
         };
         newObj.unshift(entry);
     }
-    fs.writeFile("results.json", JSON.stringify(newObj, null, "\t"), function (err) {
-        if (err)
+    fs.writeFile('results.json', JSON.stringify(newObj, null, "\t"), function (err) {
+        if (err) {
             throw err;
+        }
     });
 });
-// let to_Date_Ob = function(time){
-//     if(time[2] === 'pm'){
-//         time[0]+= 12;
-//     }
-//     let date = new Date();
-//     date.setHours(time[0]);
-//     date.setMinutes(time[1]);
-//     date.setSeconds(0);
-//     date.setUTCMilliseconds(0);
-//     return date;
-// }
-/*
-value = value.replace('Hours of Operation', '');
-            value = value.replace('Monday:', '');
-            value = value.replace('Tuesday:', ',');
-            value = value.replace('Wednesday:', ',');
-            value = value.replace('Thursday:', ',')
-            value = value.replace('Friday:', ',')
-            value = value.replace('Saturday:', ',')
-            value = value.replace('Sunday:', ',')
-            value = value.split(' ').join('');
-            value = value.split(',');
-            for(let i = 0; i < value.length;i++){
-                value[i] = value[i].replace('a',',a')
-                value[i] = value[i].replace('p',',p')
-                value[i] = value[i].replace(new RegExp(':','g'),',')
-                value[i] = value[i].split('-');
-                // value[i][0] = value[i][0].split(',');
-                console.log(value[i][1]);
-                value[i][1] = value[i][1].split(',');
-                
-            }
-            
-
-
-*/ 

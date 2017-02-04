@@ -1,157 +1,2769 @@
 [
 	{
-		"title": "Wing Zone   Fairfax Campus, The Hub",
+		"title": "Wing Zone",
 		"location": "Fairfax Campus, The Hub",
-		"operationHours": "Hours of OperationMonday: 11:00 am   - 11:00 pm Tuesday: 11:00 am   - 11:00 pm Wednesday: 11:00 am   - 11:00 pm Thursday: 11:00 am   - 11:00 pm Friday: 11:00 am   - 11:00 pm Saturday: 12:00 pm   - 11:00 pm Sunday: 12:00 pm   - 11:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					24,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					24,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Panera Bread   Fairfax Campus, Johnson Center",
+		"title": "Panera Bread",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": "Hours of OperationMonday: 07:00 am   - 10:00 pm Tuesday: 07:00 am   - 10:00 pm Wednesday: 07:00 am   - 10:00 pm Thursday: 07:00 am   - 10:00 pm Friday: 07:00 am   - 10:00 pm Saturday: 08:00 am   - 10:00 pm Sunday: 08:00 am   - 09:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Panda Express   Fairfax Campus, Merten Hall",
+		"title": "Panda Express",
 		"location": "Fairfax Campus, Merten Hall",
-		"operationHours": "Hours of OperationMonday: 10:30 am   - 09:00 pm Tuesday: 10:30 am   - 09:00 pm Wednesday: 10:30 am   - 09:00 pm Thursday: 10:30 am   - 09:00 pm Friday: 10:30 am   - 08:00 pm Saturday: 11:30 am   - 05:00 pm Sunday: 11:30 am   - 05:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Manhattan Pizza   Fairfax Campus, Merten Hall",
+		"title": "Manhattan Pizza",
 		"location": "Fairfax Campus, Merten Hall",
-		"operationHours": "Hours of OperationMonday: 10:00 am   - 10:00 pm Tuesday: 10:00 am   - 10:00 pm Wednesday: 10:00 am   - 10:00 pm Thursday: 10:00 am   - 10:00 pm Friday: 10:00 am   - 12:00 am Saturday: 11:00 am   - 12:00 am Sunday: 11:00 am   - 09:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					12,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					12,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Argo Tea   Fairfax Campus, Fenwick Library",
+		"title": "Argo Tea",
 		"location": "Fairfax Campus, Fenwick Library",
-		"operationHours": "Hours of OperationMonday: 07:00 am   - 11:00 pm Tuesday: 07:00 am   - 11:00 pm Wednesday: 07:00 am   - 11:00 pm Thursday: 07:00 am   - 11:00 pm Friday: 07:00 am   - 07:00 pm Saturday: 10:00 am   - 04:00 pm Sunday: 11:00 am   - 09:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					19,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Taco Bell   Fairfax Campus, SUB I",
+		"title": "Taco Bell",
 		"location": "Fairfax Campus, SUB I",
-		"operationHours": "Hours of OperationMonday: 11:00 am   - 08:00 pm Tuesday: 11:00 am   - 08:00 pm Wednesday: 11:00 am   - 08:00 pm Thursday: 11:00 am   - 08:00 pm Friday: 11:00 am   - 03:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					15,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Subway   Fairfax Campus, Rogers Hall",
+		"title": "Subway",
 		"location": "Fairfax Campus, Rogers Hall",
-		"operationHours": "Hours of OperationMonday: 09:00 am   - 10:00 pm Tuesday: 09:00 am   - 10:00 pm Wednesday: 09:00 am   - 10:00 pm Thursday: 09:00 am   - 10:00 pm Friday: 09:00 am   - 10:00 pm Saturday: 11:00 am   - 10:00 pm Sunday: 11:00 am   - 10:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					9,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					9,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					9,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					9,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					9,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Star Ginger   Fairfax Campus, Johnson Center",
+		"title": "Star Ginger",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": "Hours of OperationMonday: 11:00 am   - 09:00 pm Tuesday: 11:00 am   - 09:00 pm Wednesday: 11:00 am   - 09:00 pm Thursday: 11:00 am   - 09:00 pm Friday: 11:00 am   - 08:00 pm Saturday: 11:00 am   - 08:00 pm Sunday: 11:00 am   - 08:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Starbucks   Fairfax Campus, Northern Neck",
+		"title": "Starbucks",
 		"location": "Fairfax Campus, Northern Neck",
-		"operationHours": "Hours of OperationMonday: 24 HoursTuesday:  24 HoursWednesday:  24 HoursThursday:  24 HoursFriday:  24 HoursSaturday:  24 HoursSunday:  24 Hours"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Starbucks   Fairfax Campus, Johnson Center",
+		"title": "Starbucks",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": "Hours of OperationMonday: 07:00 am   - 10:00 pm Tuesday: 07:00 am   - 10:00 pm Wednesday: 07:00 am   - 10:00 pm Thursday: 07:00 am   - 10:00 pm Friday: 07:00 am   - 05:00 pm Saturday: 11:00 am   - 05:00 pm Sunday: 11:00 am   - 05:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					17,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Southside   Fairfax Campus, Southside",
+		"title": "Southside",
 		"location": "Fairfax Campus, Southside",
-		"operationHours": "Hours of OperationMonday 07:00am - 02:00am Tuesday 07:00am - 02:00am Wednesday 07:00am - 02:00am Thursday 07:00am - 02:00am Friday 07:00am - 02:00am Saturday 10:30am - 02:00am Sunday 10:30am - 02:00am "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					2,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Simply To Go   Fairfax Campus, SUB I",
+		"title": "Simply To Go",
 		"location": "Fairfax Campus, SUB I",
-		"operationHours": "Hours of OperationMonday: 10:30 am   - 03:00 pm Tuesday: 10:30 am   - 03:00 pm Wednesday: 10:30 am   - 03:00 pm Thursday: 10:30 am   - 03:00 pm Friday: 10:30 am   - 03:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					15,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					15,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					15,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					15,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					15,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Second Stop Patriot Shop   Fairfax Campus, Rogers Hall",
+		"title": "Second Stop Patriot Shop",
 		"location": "Fairfax Campus, Rogers Hall",
-		"operationHours": "Hours of OperationMonday: 08:00 am   - 10:00 pm Tuesday: 08:00 am   - 10:00 pm Wednesday: 08:00 am   - 10:00 pm Thursday: 08:00 am   - 10:00 pm Friday: 08:00 am   - 10:00 pm Saturday: 10:00 am   - 10:00 pm Sunday: 10:00 am   - 10:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					22,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Red Hot & Blue   Fairfax Campus, Johnson Center",
+		"title": "Red Hot & Blue",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": "Hours of OperationMonday: 11:00 am   - 09:00 pm Tuesday: 11:00 am   - 09:00 pm Wednesday: 11:00 am   - 09:00 pm Thursday: 11:00 am   - 09:00 pm Friday: 11:00 am   - 09:00 pm Saturday: 11:00 am   - 09:00 pm Sunday: 11:00 am   - 09:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Rathskeller   Fairfax Campus, SUB I",
+		"title": "Rathskeller",
 		"location": "Fairfax Campus, SUB I",
-		"operationHours": "Hours of OperationMonday: 11:00 am   - 09:00 pm Tuesday: 11:00 am   - 09:00 pm Wednesday: 11:00 am   - 09:00 pm Thursday: 11:00 am   - 09:00 pm Friday: 11:00 am   - 09:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Randall's Cafe   SciTech (Prince William Campus)",
+		"title": "Randall's Cafe",
 		"location": "SciTech (Prince William Campus)",
-		"operationHours": "Hours of OperationMonday: 07:30 am   - 06:00 pm Tuesday: 07:30 am   - 06:00 pm Wednesday: 07:30 am   - 06:00 pm Thursday: 07:30 am   - 06:00 pm Friday: 07:30 am   - 02:30 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					18,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					18,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					18,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					18,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					14,
+					30
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Peet's Coffee   Fairfax Campus, Innovation Hall",
+		"title": "Peet's Coffee",
 		"location": "Fairfax Campus, Innovation Hall",
-		"operationHours": "Hours of OperationMonday: 07:30 am   - 04:00 pm Tuesday: 07:30 am   - 04:00 pm Wednesday: 07:30 am   - 04:00 pm Thursday: 07:30 am   - 04:00 pm Friday: ClosedSaturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Peet's Coffee   Fairfax Campus, Exploratory Hall",
+		"title": "Peet's Coffee",
 		"location": "Fairfax Campus, Exploratory Hall",
-		"operationHours": "Hours of OperationMonday: 08:30 am   - 04:00 pm Tuesday: 08:30 am   - 04:00 pm Wednesday: 08:30 am   - 04:00 pm Thursday: 08:30 am   - 04:00 pm Friday: 08:30 am   - 04:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "One Stop Patriot Shop   Fairfax Campus, Blue Ridge",
+		"title": "One Stop Patriot Shop",
 		"location": "Fairfax Campus, Blue Ridge",
-		"operationHours": "Hours of OperationMonday 10:00 am - 02:00 am Tuesday 10:00 am - 02:00 am  Wednesday 10:00 am - 02:00 am  Thursday 10:00 am - 02:00 am  Friday 10:00 am - 12:00 am  Saturday 12:00 pm - 12:00 am  Sunday 12:00 pm - 12:00 am  "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					2,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					12,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					24,
+					0
+				],
+				"close_time": [
+					12,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					24,
+					0
+				],
+				"close_time": [
+					12,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Jorge's   Fairfax Campus, Johnson Center",
+		"title": "Jorge's",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": "Hours of OperationMonday: 11:00 am   - 08:00 pm Tuesday: 11:00 am   - 08:00 pm Wednesday: 11:00 am   - 08:00 pm Thursday: 11:00 am   - 08:00 pm Friday: 11:00 am   - 05:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "IndAroma   Fairfax Campus, Johnson Center",
+		"title": "IndAroma",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": "Hours of OperationMonday: 11:00 am   - 09:00 pm Tuesday: 11:00 am   - 09:00 pm Wednesday: 11:00 am   - 09:00 pm Thursday: 11:00 am   - 09:00 pm Friday: 11:00 am   - 09:00 pm Saturday: 11:00 am   - 09:00 pm Sunday: 11:00 am   - 09:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Ike's   Fairfax Campus, President's Park",
+		"title": "Ike's",
 		"location": "Fairfax Campus, President's Park",
-		"operationHours": "Hours of OperationMonday: 24 HoursTuesday:  24 HoursWednesday:  24 HoursThursday:  24 HoursFriday:  24 HoursSaturday:  24 HoursSunday:  24 Hours"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": true,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "The Globe   Fairfax Campus, The Global Center",
+		"title": "The Globe",
 		"location": "Fairfax Campus, The Global Center",
-		"operationHours": "Hours of OperationMonday: 08:00 am   - 08:00 pm Tuesday: 08:00 am   - 08:00 pm Wednesday: 08:00 am   - 08:00 pm Thursday: 08:00 am   - 08:00 pm Friday: 08:00 am   - 08:00 pm Saturday: 10:30 am   - 07:00 pm Sunday: 10:30 am   - 07:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					19,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					30
+				],
+				"close_time": [
+					19,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Freshens   Fairfax Campus, The RAC",
+		"title": "Freshens",
 		"location": "Fairfax Campus, The RAC",
-		"operationHours": "Hours of OperationMonday: 01:00 pm   - 09:00 pm Tuesday: 01:00 pm   - 09:00 pm Wednesday: 01:00 pm   - 09:00 pm Thursday: 01:00 pm   - 09:00 pm Friday: 01:00 pm   - 04:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					13,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					13,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					13,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					13,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					13,
+					0
+				],
+				"close_time": [
+					16,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Freshens   Fairfax Campus, Johnson Center",
+		"title": "Freshens",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": "Hours of OperationMonday: 10:00 am   - 08:00 pm Tuesday: 10:00 am   - 08:00 pm Wednesday: 10:00 am   - 08:00 pm Thursday: 10:00 am   - 08:00 pm Friday: 10:00 am   - 05:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					10,
+					0
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Express   Fairfax Campus, Johnson Center",
+		"title": "Express",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": "Hours of OperationMonday: 07:00 am   - 11:00 pm Tuesday: 07:00 am   - 11:00 pm Wednesday: 07:00 am   - 11:00 pm Thursday: 07:00 am   - 11:00 pm Friday: 07:00 am   - 11:00 pm Saturday: 09:00 am   - 11:00 pm Sunday: 09:00 am   - 11:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					9,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					9,
+					0
+				],
+				"close_time": [
+					23,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Einstein Bros. Bagels   Fairfax Campus, Merten Hall",
+		"title": "Einstein Bros. Bagels",
 		"location": "Fairfax Campus, Merten Hall",
-		"operationHours": "Hours of OperationMonday: 07:30 am   - 05:00 pm Tuesday: 07:30 am   - 05:00 pm Wednesday: 07:30 am   - 05:00 pm Thursday: 07:30 am   - 05:00 pm Friday: 07:30 am   - 05:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Einstein Bros. Bagels   Fairfax Campus, Engineering Building",
+		"title": "Einstein Bros. Bagels",
 		"location": "Fairfax Campus, Engineering Building",
-		"operationHours": "Hours of OperationMonday: 07:30 am   - 05:00 pm Tuesday: 07:30 am   - 05:00 pm Wednesday: 07:30 am   - 05:00 pm Thursday: 07:30 am   - 05:00 pm Friday: 07:30 am   - 05:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					17,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Chick Fil A   Fairfax Campus, SUB I",
+		"title": "Chick Fil A",
 		"location": "Fairfax Campus, SUB I",
-		"operationHours": "Hours of OperationMonday: 08:00 am   - 09:00 pm Tuesday: 08:00 am   - 09:00 pm Wednesday: 08:00 am   - 09:00 pm Thursday: 08:00 am   - 09:00 pm Friday: 08:00 am   - 03:00 pm Saturday: ClosedSunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					0
+				],
+				"close_time": [
+					15,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	},
 	{
-		"title": "Burger King   Fairfax Campus, Johnson Center",
+		"title": "Burger King",
 		"location": "Fairfax Campus, Johnson Center",
-		"operationHours": "Hours of OperationMonday: 07:30 am   - 09:00 pm Tuesday: 07:30 am   - 09:00 pm Wednesday: 07:30 am   - 09:00 pm Thursday: 07:30 am   - 09:00 pm Friday: 07:30 am   - 08:00 pm Saturday: 11:00 am   - 08:00 pm Sunday: 11:00 am   - 08:00 pm "
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					21,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					7,
+					30
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					11,
+					0
+				],
+				"close_time": [
+					20,
+					0
+				]
+			}
+		]
 	},
 	{
-		"title": "Au Bon Pain   Arlington Campus",
+		"title": "Au Bon Pain",
 		"location": "Arlington Campus",
-		"operationHours": "Hours of OperationMonday: 08:30 am   - 08:30 pm Tuesday: 08:30 am   - 08:30 pm Wednesday: 08:30 am   - 08:30 pm Thursday: 08:30 am   - 08:30 pm Friday: 08:30 am   - 03:00 pm Saturday: 08:30 am   - 02:00 pm Sunday: Closed"
+		"operation_hours": [
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					20,
+					30
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					20,
+					30
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					20,
+					30
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					20,
+					30
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					15,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": false,
+				"open_all_day": false,
+				"open_time": [
+					8,
+					30
+				],
+				"close_time": [
+					14,
+					0
+				]
+			},
+			{
+				"special_status": "",
+				"is_closed": true,
+				"open_all_day": false,
+				"open_time": false,
+				"close_time": false
+			}
+		]
 	}
 ]
