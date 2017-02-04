@@ -14,14 +14,16 @@ var x = Xray({
         parse_op_hrs: function (value) {
             var operation_hours = [];
             XRegExp.forEach(value, time, function (match) {
+                var op_hours_obj = {
+                    "special_status": "",
+                    "is_closed": false,
+                    "open_all_day": false,
+                    "open_time": false,
+                    "close_time": false
+                };
                 if (match.closed !== undefined) {
-                    operation_hours.push({
-                        "special_status": "",
-                        "is_closed": true,
-                        "open_all_day": false,
-                        "open_time": false,
-                        "close_time": false
-                    });
+                    op_hours_obj.is_closed = true;
+                    operation_hours.push(op_hours_obj);
                 }
                 else if (match.all_day !== undefined) {
                     operation_hours.push({
@@ -33,16 +35,12 @@ var x = Xray({
                     });
                 }
                 else {
-                    (match.open_ampm === 'pm') ? match.open_hour = (Number(match.open_hour) + 12) :
-                        match.open_hour = Number(match.open_hour);
-                    (match.close_ampm === 'pm') ? match.close_hour = (Number(match.close_hour) + 12) :
-                        match.close_hour = Number(match.close_hour);
                     operation_hours.push({
                         "special_status": "",
                         "is_closed": false,
                         "open_all_day": false,
-                        "open_time": [match.open_hour, Number(match.open_minute)],
-                        "close_time": [match.close_hour, Number(match.close_minute)]
+                        "open_time": to_24_hour_arr(Number(match.open_hour), Number(match.open_minute), match.open_ampm),
+                        "close_time": to_24_hour_arr(Number(match.close_hour), Number(match.close_minute), match.close_ampm)
                     });
                 }
             });
@@ -63,6 +61,7 @@ x('http://dining.gmu.edu/dining-choices/hours-of-operation/', {
         obj.title[i] = obj.title[i].replace(obj.location[i], '');
         var entry = {
             title: obj.title[i].trim(),
+            date_modified: new Date(),
             location: obj.location[i].trim(),
             operation_hours: obj.operation_hours[i]
         };
@@ -74,3 +73,8 @@ x('http://dining.gmu.edu/dining-choices/hours-of-operation/', {
         }
     });
 });
+var to_24_hour_arr = function (hour, minute, ampm) {
+    var new_hour;
+    (ampm === 'pm') ? new_hour = hour + 12 : new_hour = hour;
+    return [new_hour, minute];
+};

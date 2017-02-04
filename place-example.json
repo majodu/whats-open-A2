@@ -1,7 +1,7 @@
 {
   "name": "Burger King",
   "location": "The Johnson Center",
-  "date_changed": "2015-08-31T16:52:09.600Z",
+  "date_modified": "2015-08-31T16:52:09.600Z",
   "phone_number": "703-121-3212",
   "tap_n_go_link": "https://www.tapingo.com/order/restaurant/starbucks-gmu/",
   "tags": ["vegan", "mexican"],
