@@ -13,33 +13,33 @@ export class PlaceCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    let t1 = new Date();
-    let t2 = new Date();
-    let weekStartTimes: Date[] = [];
-    let weekEndTimes: Date[] = [];
+    let weekOpenTimes: number[][] = [];
+    let weekCloseTimes: number[][] = [];
 
     for (let i = 0; i < 7; i++) {
-      t1 = new Date();
-      t2 = new Date();
-      t1.setDate(5 + Math.random() * 6);
-      t1.setHours((Math.random() * 10) + 1);
-      t2.setHours((Math.random() * 10) + 13);
-
-      weekStartTimes.push(t1);
-      weekEndTimes.push(t2);
+      const hour1 = Math.floor(Math.random() * 24);
+      const minute1 = Math.floor(Math.random() * 60);
+      const hour2 = Math.floor(Math.random() * 24);
+      const minute2 = Math.floor(Math.random() * 60);
+      weekOpenTimes.push([hour1, minute1]);
+      weekCloseTimes.push([hour2, minute2]);
     }
-    this.place = new Place('Burger King', weekStartTimes,
-      weekEndTimes, 'picture: string', 'open', 'The Johnson Center');
+    this.place = new Place('Burger King', weekOpenTimes,
+      weekCloseTimes, 'picture: string', 'The Johnson Center');
 
-    let todaysDate = this.place[new Date().getDay()];
-    console.log(todaysDate);
-
-    if (this.place.status === 'open') {
       this.status = 'OPEN';
-    } else {
-      this.status = 'CLOSED';
+  
+}
+  //if t1 is bigger than t2 it returns true ;
+  private time_between = function (t1: number[], t2: number[]): boolean {
+    // multiplying hours by 60 and adding minutes
+    const t1_minutes = t1[0] * 60 + t1[1];
+    const t2_minutes = t2[0] * 60 + t2[1];
+
+
+    if (t1_minutes > t2_minutes) {
+      return true;
     }
-
+    return false;
   }
-
 }

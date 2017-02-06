@@ -23,26 +23,15 @@ var x = Xray({
                 };
                 if (match.closed !== undefined) {
                     op_hours_obj.is_closed = true;
-                    operation_hours.push(op_hours_obj);
                 }
                 else if (match.all_day !== undefined) {
-                    operation_hours.push({
-                        "special_status": "",
-                        "is_closed": false,
-                        "open_all_day": true,
-                        "open_time": false,
-                        "close_time": false
-                    });
+                    op_hours_obj.open_all_day = true;
                 }
                 else {
-                    operation_hours.push({
-                        "special_status": "",
-                        "is_closed": false,
-                        "open_all_day": false,
-                        "open_time": to_24_hour_arr(Number(match.open_hour), Number(match.open_minute), match.open_ampm),
-                        "close_time": to_24_hour_arr(Number(match.close_hour), Number(match.close_minute), match.close_ampm)
-                    });
+                    op_hours_obj.open_time = to_24_hour_arr(Number(match.open_hour), Number(match.open_minute), match.open_ampm);
+                    op_hours_obj.close_time = to_24_hour_arr(Number(match.close_hour), Number(match.close_minute), match.close_ampm);
                 }
+                operation_hours.push(op_hours_obj);
             });
             return operation_hours;
         }
@@ -61,7 +50,7 @@ x('http://dining.gmu.edu/dining-choices/hours-of-operation/', {
         obj.title[i] = obj.title[i].replace(obj.location[i], '');
         var entry = {
             title: obj.title[i].trim(),
-            date_modified: new Date(),
+            date_modified: (new Date()).toISOString(),
             location: obj.location[i].trim(),
             operation_hours: obj.operation_hours[i]
         };

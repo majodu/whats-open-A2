@@ -2,20 +2,20 @@
 export class Place {
     name: string;
     picture: string;
-    status: string;
-    startTimes: Date[];
-    endTimes: Date[];
+
+    openTimes: number[][];
+    closeTimes: number[][];
     location: string;
-    constructor(name: string, startTimes: Date[],
-        endTimes: Date[], picture: string, status: string, location: string) {
+    constructor(name: string, openTimes: number[][],
+        closeTimes: number[][], picture: string, location: string) {
 
         this.name = name;
-        this.startTimes = startTimes;
-        this.endTimes = endTimes;
+        this.openTimes = openTimes;
+        this.closeTimes = closeTimes;
         this.picture = picture;
-        this.status = status;
         this.location = location;
 
-    }
+        }
+
 }
 

@@ -13,6 +13,7 @@ import { SafeUrlPipe } from './safe-url.pipe';
 import { PlaceWindowComponent } from './place-window/place-window.component';
 import { PlaceCardComponent } from './place-window/area/place-card/place-card.component';
 import { AreaComponent } from './place-window/area/area.component';
+import { FilterBarComponent } from './filter-bar/filter-bar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,9 @@ import { AreaComponent } from './place-window/area/area.component';
     SafeUrlPipe,
     PlaceWindowComponent,
     PlaceCardComponent,
-    AreaComponent
+    AreaComponent,
+    FilterBarComponent,
+    FilterBarComponent
   ],
   imports: [
     BrowserModule,

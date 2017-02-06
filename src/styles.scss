@@ -10,5 +10,8 @@ html {
 body {
     height: inherit;
     background-color: $background-color;
+    background-image: url("/assets/clock.png");
+    background-repeat: repeat;
     margin: 0px;
+
 }

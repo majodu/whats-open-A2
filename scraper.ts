@@ -14,6 +14,7 @@ let x = Xray({
     filters: {
         parse_op_hrs: function (value) {
             let operation_hours = [];
+
             XRegExp.forEach(value, time, (match) => {
                 let op_hours_obj = {
                     "special_status": "",
@@ -34,7 +35,7 @@ let x = Xray({
 
                     op_hours_obj.open_time = to_24_hour_arr(Number(match.open_hour), Number(match.open_minute), match.open_ampm);
                     op_hours_obj.close_time = to_24_hour_arr(Number(match.close_hour), Number(match.close_minute), match.close_ampm);
-                    
+
                 }
                 operation_hours.push(op_hours_obj);
             });
@@ -57,7 +58,7 @@ x('http://dining.gmu.edu/dining-choices/hours-of-operation/', {
             obj.title[i] = obj.title[i].replace(obj.location[i], '');
             let entry = {
                 title: obj.title[i].trim(),
-                date_modified: new Date(),
+                date_modified: (new Date()).toISOString(),
                 location: obj.location[i].trim(),
                 operation_hours: obj.operation_hours[i]
             }
