@@ -1,5 +1,36 @@
 @import '../../global-styles';
+.filter-bar {
+  width: 176.48px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+  box-sizing: content-box;
+  background-color: rgba(255,255,255,0);
+  position:absolute;
+}
 
-.filter-bar{
-    width: 176.48px;
+.search-box {
+  border-width: 1px;
+  border-radius: 4px;
+  width: 157px;
+  height: 31px;
+  border-color: $primary;
+  border-style: solid;
+  padding: 0px;
+  padding-left: 5px;
+}
+
+.input-group {
+  width: 157px;
+  height: 31px;
+  position: relative;
+}
+
+.campus-location {
+  display: flex;
+  flex-direction: row;
+}
+
+.campus-location-icon {
+  margin-right: 8px;
 }
