@@ -1,21 +1,42 @@
 @import '../../global-styles';
 
-
-.context-bar {
-    height: 100%;
-    width: 374px;
-    // float: right;
-    padding-left: 11px;
-    padding-right: 11px;
-    box-sizing: content-box;
+.show-hide-button{
+    margin-top:auto;
+    margin-bottom: auto;
 }
 
+.context-bar-button-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.context-bar {
+    height: 100%;
+//    width: 374px;
+    // float: right;
+//    padding-left: 11px;
+//    padding-right: 11px
+    box-sizing: content-box;
+    transition: all .41s ease-in-out;
+    overflow: hidden;
+}
+.context-bar-closed{
+    @extend .context-bar;
+    width:0px;
+    padding:0px;
+}
+.context-bar-open{
+    @extend .context-bar;
+    width:374px;    
+    padding-left: 11px;
+    padding-right: 11px;
+}
 .image{
     width: 77.8px;
 	height: 82.7px;
     border-radius: 50%;
 }
-.title{
+.content-bar-title{
 font-family: HelveticaNeue-Medium;
 	font-size: 32px;
 	font-weight: 500;
@@ -25,11 +46,11 @@ font-family: HelveticaNeue-Medium;
 	color: $primary;
     margin-left: 50.5px;
 }
-.header{
+.context-bar-header{
     display: flex;
     align-items: center;
     height: 104.6px;
-    width: 100%;
+    width: 374px;
 }
 hr{
     background-color: $border-color;
@@ -55,6 +76,8 @@ hr{
 .info-block{
     display: flex;
     flex-direction: column;
+    width:187px;
+    height:28;
     
 }
 .spacer{

@@ -14,6 +14,7 @@ import { PlaceWindowComponent } from './place-window/place-window.component';
 import { PlaceCardComponent } from './place-window/area/place-card/place-card.component';
 import { AreaComponent } from './place-window/area/area.component';
 import { FilterBarComponent } from './filter-bar/filter-bar.component';
+import { ShowHideArrowComponent } from './context-bar/show-hide-arrow/show-hide-arrow.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { FilterBarComponent } from './filter-bar/filter-bar.component';
     PlaceCardComponent,
     AreaComponent,
     FilterBarComponent,
-    FilterBarComponent
+    FilterBarComponent,
+    ShowHideArrowComponent
   ],
   imports: [
     BrowserModule,

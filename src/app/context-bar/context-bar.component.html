@@ -1,7 +1,11 @@
-<div class="light-card context-bar">
-    <div class="header">
+<div class="context-bar-button-container">
+<!--<button class="show-hide-button"(click)="show=!show">Click Me</button>-->
+<app-show-hide-arrow class="show-hide-button" [isRight]='true' (change)="show = $event"></app-show-hide-arrow>
+<div [ngClass]="(show)?'light-card context-bar-open' : 'light-card context-bar-closed'">
+    
+    <div class="context-bar-header">
         <img class="image" src="../../assets/BKing.jpg">
-        <div class="title">Burger King</div>
+        <div class="content-bar-title">Burger King</div>
     </div>
     <hr>
     <div>
@@ -50,3 +54,4 @@
         <!--<hr>-->
         <app-map></app-map>
     </div>
+</div>

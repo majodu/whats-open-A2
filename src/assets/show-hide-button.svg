@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="32px" viewBox="0 0 18 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Close Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Close-Arrow">
+            <g transform="translate(0.000000, 0.333984)">
+                <path d="M18,0.127530847 C17.3295121,0.0433831801 16.6460035,0 15.9521484,0 C7.14202013,0 0,6.99436473 0,15.6223509 C0,24.250337 7.14202013,31.2447017 15.9521484,31.2447017 C16.6460035,31.2447017 17.3295121,31.2013186 18,31.1171709 L18,0.127530847 Z" id="Combined-Shape" stroke="#E6EAEE" fill="#FFFFFF"></path>
+                <text id="Arrow-Right-Icon" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#9FA9BA">
+                    <tspan x="3.00081759" y="21.7194516"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
