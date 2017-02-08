@@ -7,18 +7,15 @@
 
 .context-bar-button-container{
     display: flex;
+     height: 100%;
     flex-direction: row;
-    height: 100%;
 }
 .context-bar {
     height: 100%;
-//    width: 374px;
-    // float: right;
-//    padding-left: 11px;
-//    padding-right: 11px
+    width:100%;
     box-sizing: content-box;
-    transition: all .41s ease-in-out;
-    overflow: hidden;
+    transition: all .40s ease-in-out;
+    // overflow: hidden;
 }
 .context-bar-closed{
     @extend .context-bar;
